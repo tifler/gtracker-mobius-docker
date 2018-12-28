@@ -1,5 +1,5 @@
 DOCKER_NAME=gtracker-mobius
-DOCKER_VERSION=latest
+DOCKER_VERSION=1.0
 DOCKER_IMAGE=$(DOCKER_NAME):$(DOCKER_VERSION)
 GIT_SERVER ?= new-tako
 GIT_REPO=ssh://$(USER)@$(GIT_SERVER)/home/mngr-repo/lap/IOT/gtracker-mobius.git
